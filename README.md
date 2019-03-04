@@ -10,15 +10,21 @@ The base version of Stelch Web Server
 
 Execute the following code to install dependencies.
 
-```bash
+```
 npm install
 ```
 
-customize config.json to your particular requirements
+customize config.yml to your particular requirements
 
-```bash
+```
 node app
 ```
+
+## Post Installation Notes
+By default SSL Support is **disabled**. To enable it simply enable it in the
+`config.yml` file. You must also have a **valid** ssl certificate.
+
+Stelch Web Server is created to simplify hosting basic sites. It is built to be expanded on, so feel free to push to the repository with any suggestions. And if you find any Vulnerabilities, Exploits, etc. Please contact me.
 
 ## Authors
 
