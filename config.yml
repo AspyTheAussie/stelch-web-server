@@ -1,0 +1,19 @@
+{
+  "build": "sws min / 1.0",
+    "sites": {
+        "other": {
+          "dir": "sites/default",
+          "default_file": "index.html",
+          "enforce_ssl": true,
+          "SSL": {
+            "enabled": false,
+            "cert": "cert/default.crt",
+            "ca": "cert/default.ca",
+            "key": "cert/default.key"
+          },
+          "aliases": {}
+        }
+    },
+    "blackList": [],
+    "warnings":[]
+}
